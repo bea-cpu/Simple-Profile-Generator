@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+  width: 220px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+#output {
+  margin-top: 40px;
+}
+
+.profile-card {
+  padding: 30px;            
+  border-radius: 10px;
+  width: 350px;             
+  margin: auto;
+  border: 2px solid;
+}
+
+.profile-card h2 {
+  margin: 0 0 15px;
+  font-size: 24px;          
+}
+
+.profile-card p {
+  margin: 8px 0;
+  font-size: 18px;          
+}
